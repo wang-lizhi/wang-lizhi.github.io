@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">NIR-assisted image denoising via frequency correlation</title>
+  <desc id="desc">Scientific illustration of visible and near-infrared fields, frequency correlation, and restored image.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset="1" stop-color="#eef6f4"/>
+    </linearGradient>
+    <linearGradient id="vis" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#185ed0"/>
+      <stop offset="1" stop-color="#58b3ff"/>
+    </linearGradient>
+    <linearGradient id="nir" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b8c87"/>
+      <stop offset="1" stop-color="#8fd9d3"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="28" fill="url(#bg)"/>
+  <g transform="translate(48 70)">
+    <rect width="150" height="150" rx="20" fill="url(#vis)"/>
+    <path d="M24 112c24-52 50-40 74-70 20 34 42 46 52 78" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="54" cy="52" r="15" fill="#ffcc7a"/>
+    <text x="38" y="190" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#132238">RGB noisy</text>
+  </g>
+  <g transform="translate(246 70)">
+    <rect width="150" height="150" rx="20" fill="url(#nir)"/>
+    <path d="M20 112c30-40 52-38 84-74 18 36 32 52 46 74" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+    <path d="M34 34h82M34 64h82M34 94h82" stroke="#0b2343" stroke-opacity=".22" stroke-width="5" stroke-linecap="round"/>
+    <text x="30" y="190" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#132238">NIR guide</text>
+  </g>
+  <g transform="translate(444 70)">
+    <rect width="150" height="150" rx="20" fill="#ffffff" stroke="#cfddea" stroke-width="2"/>
+    <path d="M24 112c24-52 50-40 74-70 20 34 42 46 52 78" fill="none" stroke="#185ed0" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="54" cy="52" r="15" fill="#ffcc7a"/>
+    <path d="M34 128h86" stroke="#0b8c87" stroke-width="6" stroke-linecap="round"/>
+    <text x="28" y="190" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#132238">Denoised</text>
+  </g>
+  <g transform="translate(214 132)">
+    <path d="M0 24h28M156 24h28" stroke="#9db5c9" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="92" cy="24" r="38" fill="#0b2343"/>
+    <path d="M68 24c12-26 36-26 48 0s36 26 48 0" transform="translate(-22 0)" fill="none" stroke="#ffcc7a" stroke-width="5" stroke-linecap="round"/>
+    <text x="51" y="78" font-family="Arial, sans-serif" font-size="13" fill="#5e6f83">frequency correlation</text>
+  </g>
+</svg>

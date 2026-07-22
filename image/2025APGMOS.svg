@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Auditory perception guided MOS predictor</title>
+  <desc id="desc">Scientific illustration of speech waveform, auditory filterbank, and MOS prediction.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2f7ff"/>
+      <stop offset="1" stop-color="#eefbf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="28" fill="url(#bg)"/>
+  <g transform="translate(50 70)">
+    <rect width="210" height="220" rx="24" fill="#ffffff" stroke="#dce5ed" stroke-width="2"/>
+    <path d="M32 112c18-74 30 74 48 0s30-74 48 0 30 74 48 0" fill="none" stroke="#185ed0" stroke-width="8" stroke-linecap="round"/>
+    <path d="M34 152h142" stroke="#c6d5e3" stroke-width="3" stroke-linecap="round"/>
+    <text x="34" y="50" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#132238">Synthetic speech</text>
+    <text x="34" y="190" font-family="Arial, sans-serif" font-size="15" fill="#5e6f83">waveform cues</text>
+  </g>
+  <g transform="translate(300 62)">
+    <rect width="144" height="236" rx="22" fill="#0b2343"/>
+    <g transform="translate(28 34)">
+      <rect x="0" y="0" width="88" height="18" rx="9" fill="#8fd9d3"/>
+      <rect x="0" y="36" width="88" height="18" rx="9" fill="#56b7ed"/>
+      <rect x="0" y="72" width="88" height="18" rx="9" fill="#ffcc7a"/>
+      <rect x="0" y="108" width="88" height="18" rx="9" fill="#8fd9d3"/>
+      <rect x="0" y="144" width="88" height="18" rx="9" fill="#56b7ed"/>
+    </g>
+    <text x="32" y="210" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">APG-MOS</text>
+  </g>
+  <path d="M260 180h38M444 180h44" stroke="#23a6a0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M286 164l18 16-18 16M474 164l18 16-18 16" fill="none" stroke="#23a6a0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(492 88)">
+    <circle cx="56" cy="56" r="56" fill="#ffffff" stroke="#dce5ed" stroke-width="2"/>
+    <text x="27" y="66" font-family="Arial, sans-serif" font-size="32" font-weight="800" fill="#185ed0">4.3</text>
+    <text x="10" y="148" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#132238">Quality score</text>
+  </g>
+</svg>

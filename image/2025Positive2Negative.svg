@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Positive2Negative self-supervised single image denoising</title>
+  <desc id="desc">Scientific illustration of positive and negative information flows for denoising.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#f1f8f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="28" fill="url(#bg)"/>
+  <g transform="translate(54 82)">
+    <rect width="150" height="150" rx="22" fill="#ffffff" stroke="#dce5ed" stroke-width="2"/>
+    <g fill="#185ed0" opacity=".82">
+      <circle cx="36" cy="38" r="7"/><circle cx="78" cy="52" r="5"/><circle cx="118" cy="34" r="6"/>
+      <circle cx="44" cy="94" r="5"/><circle cx="96" cy="104" r="7"/><circle cx="128" cy="86" r="4"/>
+    </g>
+    <path d="M24 124c26-42 54-38 78-70 20 30 30 42 48 66" fill="none" stroke="#0b2343" stroke-width="7" stroke-linecap="round"/>
+    <text x="20" y="190" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#132238">Noisy input</text>
+  </g>
+  <g transform="translate(252 62)">
+    <rect width="138" height="190" rx="22" fill="#0b2343"/>
+    <text x="34" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">P2N</text>
+    <path d="M36 74h64M36 112h64M36 150h64" stroke="#8fd9d3" stroke-width="6" stroke-linecap="round"/>
+    <path d="M52 74l26 38-26 38" fill="none" stroke="#ffcc7a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(436 82)">
+    <rect width="150" height="150" rx="22" fill="#ffffff" stroke="#dce5ed" stroke-width="2"/>
+    <path d="M24 124c26-42 54-38 78-70 20 30 30 42 48 66" fill="none" stroke="#185ed0" stroke-width="7" stroke-linecap="round"/>
+    <path d="M32 128h92" stroke="#0b8c87" stroke-width="6" stroke-linecap="round"/>
+    <text x="18" y="190" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#132238">Restored image</text>
+  </g>
+  <path d="M206 158h42M392 158h42" stroke="#23a6a0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M232 142l18 16-18 16M418 142l18 16-18 16" fill="none" stroke="#23a6a0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(74 35)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="23" font-weight="800" fill="#132238">Positive to Negative</text>
+    <text x="0" y="28" font-family="Arial, sans-serif" font-size="15" fill="#5e6f83">self-supervised denoising without clean pairs</text>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Refractive-diffractive optics with unidirectional transformer</title>
+  <desc id="desc">Scientific illustration of wide field imaging through hybrid optics and transformer reconstruction.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#edf7ff"/>
+      <stop offset="1" stop-color="#f6fbff"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1=".5" x2="1" y2=".5">
+      <stop offset="0" stop-color="#1d75d8" stop-opacity=".18"/>
+      <stop offset=".55" stop-color="#23b5aa" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#ffb84d" stop-opacity=".18"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="28" fill="url(#bg)"/>
+  <path d="M38 78c78 26 142 60 224 98 90 42 170 73 338 92" fill="none" stroke="#c8d9ea" stroke-width="2"/>
+  <path d="M42 274c110-64 200-80 298-68 92 11 172 43 258 68" fill="none" stroke="#d7e5f0" stroke-width="2"/>
+  <polygon points="55,112 250,180 55,248" fill="url(#beam)"/>
+  <polygon points="285,118 586,76 586,286 285,222" fill="url(#beam)"/>
+  <g transform="translate(250 74)">
+    <ellipse cx="34" cy="106" rx="30" ry="104" fill="#ffffff" stroke="#174b7f" stroke-width="6"/>
+    <path d="M34 6c18 32 28 66 28 100s-10 68-28 100c-18-32-28-66-28-100S16 38 34 6z" fill="#dff1ff"/>
+    <path d="M22 24h24M16 58h36M12 92h44M12 126h44M16 160h36M22 194h24" stroke="#23a6a0" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(388 84)">
+    <rect x="0" y="0" width="150" height="188" rx="20" fill="#0b2343"/>
+    <path d="M24 42h102M24 82h102M24 122h102" stroke="#8fd9d3" stroke-width="6" stroke-linecap="round"/>
+    <path d="M42 42l22 40-22 40M76 42l22 40-22 40" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="120" cy="156" r="14" fill="#ffcc7a"/>
+  </g>
+  <g transform="translate(72 54)" fill="#132238">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="24" font-weight="700">Large FOV Imaging</text>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="15" fill="#5e6f83">hybrid refractive-diffractive optics</text>
+  </g>
+</svg>

@@ -9,14 +9,14 @@
   const publicationCards = Array.from(document.querySelectorAll('#publications > table[height="98"]'));
   const publicationToggle = document.querySelector(".publication-toggle");
   const publicationCount = document.querySelector(".publication-count");
-  const initialPublicationCount = 6;
+  const initialPublicationCount = 10;
   let publicationsExpanded = false;
   let currentLanguage = "zh";
 
   const text = {
     zh: {
       title: "王立志 Lizhi Wang｜北京师范大学",
-      description: "王立志，北京师范大学人工智能学院教授、博士生导师，研究方向包括计算机视觉、计算成像、计算摄影与人工智能。课题组长期招收博士生、硕士生、科研实习生和博士后。",
+      description: "王立志，北京师范大学人工智能学院教授、博导、国家优青，研究方向包括计算机视觉、计算成像、计算摄影与人工智能。课题组长期招收博士生、硕士生、科研实习生和博士后。",
       switchLabel: "Switch to English",
       navLabel: "主要导航",
       brandLabel: "王立志个人学术主页",

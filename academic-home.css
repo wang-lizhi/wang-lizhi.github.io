@@ -173,8 +173,9 @@ html[data-lang="en"] .lang-en { display: revert !important; }
   letter-spacing: .01em;
 }
 .hero__role { margin: 16px 0 0; color: #fff; font-size: clamp(18px, 2vw, 22px); font-weight: 700; }
-.hero__affiliation { max-width: 690px; margin: 5px 0 0; color: #c3d2e5; }
+.hero__affiliation { max-width: 690px; margin: 5px 0 0; color: #c3d2e5; font-size: 20.8px; }
 .hero__lead { max-width: 760px; margin: 16px 0 0; color: #e6eef8; font-size: 16px; }
+.hero__openings { margin: 14px 0 0; color: #ffcc7a; font-size: 20px; line-height: 1.5; overflow-wrap: anywhere; }
 .hero__actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
 .btn {
   display: inline-flex;
